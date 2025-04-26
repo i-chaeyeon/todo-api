@@ -34,4 +34,24 @@ public class TodoRequestDTO {
     public Todo toEntity(){
         return new Todo(IdGenerator.generateId(), title, LocalDateTime.now(), dueDate, category, importance, isDone);
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public LocalDate getDueDate() {
+        return dueDate;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public Importance getImportance() {
+        return importance;
+    }
+
+    public Boolean getDone() {
+        return isDone;
+    }
 }
