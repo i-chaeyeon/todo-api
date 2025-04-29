@@ -5,14 +5,18 @@ import chaeyeon.todo_lab.todo_api.domain.Todo;
 import chaeyeon.todo_lab.todo_api.dto.TodoRequestDTO;
 import chaeyeon.todo_lab.todo_api.dto.TodoResponseDTO;
 import chaeyeon.todo_lab.todo_api.repository.TodoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
 
+@Service
 public class InMemoryTodoServiceImpl implements TodoService{
 
     private final TodoRepository todoRepository;  // 리포지토리 선언
 
+    @Autowired
     public InMemoryTodoServiceImpl(TodoRepository todoRepository) {
         this.todoRepository = todoRepository;  // 생성자 주입
     }

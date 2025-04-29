@@ -1,12 +1,14 @@
 package chaeyeon.todo_lab.todo_api.repository;
 
 import chaeyeon.todo_lab.todo_api.domain.Todo;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Repository
 public class InMemoryTodoRepository implements TodoRepository {
 
     private final Map<Long, Todo> store = new HashMap<>(); // private final 선언해주는것이 좋음
