@@ -8,11 +8,11 @@ API 작성 및 테스팅에 익숙하지 않으신 분들께.
 
 ## 자세한 설명 및 코드 설명
 프로젝트 기획, 엔티티&DTO 설계  
-https://velog.io/@chchchae/25-4-To-Do-API-1  
+[https://velog.io/@chchchae/25-4-To-Do-API-1](https://velog.io/@chchchae/25-4-To-Do-API-1)  
 DTO 제약조건, JUnit/AssertJ 테스팅  
-https://velog.io/@chchchae/25-4-To-Do-API-2  
+[https://velog.io/@chchchae/25-4-To-Do-API-2](https://velog.io/@chchchae/25-4%EC%9B%94-To-Do-API-2)  
 Service 구현 및 테스팅, Controller 구현, Postman 테스팅   
-https://velog.io/@chchchae/25-4-To-Do-API-3  
+[https://velog.io/@chchchae/25-4-To-Do-API-3](https://velog.io/@chchchae/25-4%EC%9B%94-To-Do-API-3)  
 
 ---
 
